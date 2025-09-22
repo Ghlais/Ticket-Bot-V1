@@ -1,0 +1,38 @@
+{
+  "token": "BOT_TOKEN",
+  "clientId": "APP_ID",
+  "guildId": "GUILD_ID",
+
+  "lang": "ar",
+
+  "panelChannelId": "CHANNEL_ID",
+  "logChannelId": "CHANNEL_ID",
+  "ticketsCategoryId": "CATEGORY_ID",
+  "archiveCategoryId": "CATEGORY_ID",
+  "weeklyReportChannelId": "CHANNEL_ID",
+
+  "supportTeamRoleId": "ROLE_FALLBACK_ID",
+  "typeRoleIds": {
+    "support": "ROLE_ID",
+    "billing": "ROLE_ID",
+    "technical": "ROLE_ID",
+    "partnership": "ROLE_ID",
+    "report": "ROLE_ID"
+  },
+
+  "claimRoleId": "ROLE_ID",
+  "closeRoleId": "ROLE_ID",
+  "reopenRoleId": "ROLE_ID",
+  "deleteRoleId": "ROLE_ID",
+  "bypassLimitRoleId": "ROLE_ID",
+
+  "perTypeLimit": 1,
+  "globalOpenLimit": 2,
+  "dailyOpenLimit": 3,
+  "openCooldownSec": 120,
+  "reopenLimit": 1,
+  "idleAutoCloseHours": 48,
+  "dmOnClose": true,
+
+  "weeklyReport": { "day": 0, "hour": 20 }
+}

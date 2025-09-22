@@ -1,0 +1,17 @@
+{
+  "name": "ticket-bot-pro",
+  "version": "3.0.0",
+  "description": "Advanced Discord Ticket Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node index.js register"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "discord.js": "^14.22.1",
+    "fs-extra": "^11.3.1",
+    "uuid": "^13.0.0"
+  }
+}
