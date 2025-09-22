@@ -1,0 +1,84 @@
+{
+  "panel.title": "🎟️ Ticket System",
+  "panel.desc": "Choose ticket type from the menu below",
+  "select.placeholder": "Choose ticket type",
+  "type.support": "🛠️ Support",
+  "type.billing": "💳 Billing",
+  "type.technical": "🖥️ Technical",
+  "type.partnership": "📢 Partnership",
+  "type.report": "🚨 Report",
+
+  "modal.support.title": "Open Support Ticket",
+  "modal.support.q1": "Issue Description",
+  "modal.support.q2": "Links/Evidence (optional)",
+
+  "modal.billing.title": "Open Billing Ticket",
+  "modal.billing.q1": "Invoice Number",
+  "modal.billing.q2": "Details",
+
+  "modal.technical.title": "Open Technical Ticket",
+  "modal.technical.q1": "Environment/System",
+  "modal.technical.q2": "Issue Description",
+
+  "modal.partnership.title": "Open Partnership Ticket",
+  "modal.partnership.q1": "Server link/info",
+  "modal.partnership.q2": "Offer details",
+
+  "modal.report.title": "Open Report Ticket",
+  "modal.report.q1": "Reported user",
+  "modal.report.q2": "Details & Evidence",
+
+  "ticket.opened": "New Ticket",
+  "ticket.id": "ID",
+  "ticket.owner": "Opened by",
+  "ticket.type": "Type",
+  "ticket.claimed": "✅ Ticket claimed by",
+  "ticket.closed": "🔒 Ticket closed",
+  "ticket.reopened": "🔓 Ticket reopened",
+  "ticket.deleted": "🗑️ Ticket deleted",
+  "ticket.archived": "📦 Channel archived",
+  "ticket.wait_user": "⏳ State: Waiting on user",
+  "ticket.wait_staff": "🕓 State: Waiting on staff",
+
+  "btn.claim": "Claim",
+  "btn.close": "Close",
+  "btn.reopen": "Reopen",
+  "btn.delete": "Hard Delete",
+  "btn.state_user": "Waiting on user",
+  "btn.state_staff": "Waiting on staff",
+
+  "macro.title": "Quick Replies",
+  "macro.greet": "Greeting",
+  "macro.moreinfo": "Need more info",
+  "macro.waiting_user": "Switched to waiting on user",
+  "macro.waiting_staff": "Switched to waiting on staff",
+
+  "errors.category": "Tickets category misconfigured",
+  "errors.limit_type": "Per-type ticket limit reached",
+  "errors.limit_global": "Global open tickets limit reached",
+  "errors.limit_daily": "Daily ticket open limit reached",
+  "errors.cooldown": "Please wait {s} seconds before opening a new ticket",
+  "errors.no_perm": "You don't have permission",
+  "errors.not_ticket": "This is not a registered ticket channel",
+  "errors.already_closed": "Already closed",
+  "errors.not_closed": "Not closed",
+  "errors.reopen_limit": "Reopen limit exceeded",
+  "errors.must_close_first": "Close the ticket before hard delete",
+
+  "close.reason.modal": "Close Reason",
+  "close.reason.label": "Write the closing reason (required)",
+
+  "open.reply": "Ticket opened {channel}",
+  "dm.closed": "Your ticket {id} has been closed. Thanks for contacting us.",
+
+  "stats.title": "📊 Ticket Stats",
+  "stats.total": "Total",
+  "stats.open": "Open",
+  "stats.closed": "Closed",
+  "stats.claimed": "Claimed",
+
+  "weekly.title": "📅 Weekly Ticket Report",
+  "weekly.opened": "Opened this week",
+  "weekly.closed": "Closed this week",
+  "weekly.avg_time": "Avg close time (hours)"
+}
